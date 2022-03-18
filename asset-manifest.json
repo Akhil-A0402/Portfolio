@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/akhila.tech/static/css/main.eaa79bfb.css",
-    "main.js": "/akhila.tech/static/js/main.fd7ed716.js",
-    "static/js/787.64467278.chunk.js": "/akhila.tech/static/js/787.64467278.chunk.js",
-    "static/media/Interstellar.png": "/akhila.tech/static/media/Interstellar.6f002e1cdef9726a072a.png",
-    "static/media/Audiowide-Regular.ttf": "/akhila.tech/static/media/Audiowide-Regular.2017bdb174a62d0daa3e.ttf",
-    "index.html": "/akhila.tech/index.html",
-    "main.eaa79bfb.css.map": "/akhila.tech/static/css/main.eaa79bfb.css.map",
-    "main.fd7ed716.js.map": "/akhila.tech/static/js/main.fd7ed716.js.map",
-    "787.64467278.chunk.js.map": "/akhila.tech/static/js/787.64467278.chunk.js.map"
+    "main.css": "/static/css/main.f8699c78.css",
+    "main.js": "/static/js/main.472a492b.js",
+    "static/js/787.64467278.chunk.js": "/static/js/787.64467278.chunk.js",
+    "static/media/Interstellar.png": "/static/media/Interstellar.6f002e1cdef9726a072a.png",
+    "static/media/Audiowide-Regular.ttf": "/static/media/Audiowide-Regular.2017bdb174a62d0daa3e.ttf",
+    "index.html": "/index.html",
+    "main.f8699c78.css.map": "/static/css/main.f8699c78.css.map",
+    "main.472a492b.js.map": "/static/js/main.472a492b.js.map",
+    "787.64467278.chunk.js.map": "/static/js/787.64467278.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaa79bfb.css",
-    "static/js/main.fd7ed716.js"
+    "static/css/main.f8699c78.css",
+    "static/js/main.472a492b.js"
   ]
 }
