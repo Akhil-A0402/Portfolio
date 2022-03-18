@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1ce08e4c.css",
+    "main.js": "/static/js/main.c83cf798.js",
+    "static/js/787.64467278.chunk.js": "/static/js/787.64467278.chunk.js",
+    "static/media/Interstellar.png": "/static/media/Interstellar.6f002e1cdef9726a072a.png",
+    "static/media/Audiowide-Regular.ttf": "/static/media/Audiowide-Regular.2017bdb174a62d0daa3e.ttf",
+    "index.html": "/index.html",
+    "main.1ce08e4c.css.map": "/static/css/main.1ce08e4c.css.map",
+    "main.c83cf798.js.map": "/static/js/main.c83cf798.js.map",
+    "787.64467278.chunk.js.map": "/static/js/787.64467278.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ce08e4c.css",
+    "static/js/main.c83cf798.js"
+  ]
+}
