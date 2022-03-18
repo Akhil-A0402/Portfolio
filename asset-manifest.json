@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ce08e4c.css",
-    "main.js": "/static/js/main.c83cf798.js",
-    "static/js/787.64467278.chunk.js": "/static/js/787.64467278.chunk.js",
-    "static/media/Interstellar.png": "/static/media/Interstellar.6f002e1cdef9726a072a.png",
-    "static/media/Audiowide-Regular.ttf": "/static/media/Audiowide-Regular.2017bdb174a62d0daa3e.ttf",
-    "index.html": "/index.html",
-    "main.1ce08e4c.css.map": "/static/css/main.1ce08e4c.css.map",
-    "main.c83cf798.js.map": "/static/js/main.c83cf798.js.map",
-    "787.64467278.chunk.js.map": "/static/js/787.64467278.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.cad64fdd.css",
+    "main.js": "/Portfolio/static/js/main.4bec0ada.js",
+    "static/js/787.64467278.chunk.js": "/Portfolio/static/js/787.64467278.chunk.js",
+    "static/media/Interstellar.png": "/Portfolio/static/media/Interstellar.6f002e1cdef9726a072a.png",
+    "static/media/Audiowide-Regular.ttf": "/Portfolio/static/media/Audiowide-Regular.2017bdb174a62d0daa3e.ttf",
+    "index.html": "/Portfolio/index.html",
+    "main.cad64fdd.css.map": "/Portfolio/static/css/main.cad64fdd.css.map",
+    "main.4bec0ada.js.map": "/Portfolio/static/js/main.4bec0ada.js.map",
+    "787.64467278.chunk.js.map": "/Portfolio/static/js/787.64467278.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ce08e4c.css",
-    "static/js/main.c83cf798.js"
+    "static/css/main.cad64fdd.css",
+    "static/js/main.4bec0ada.js"
   ]
 }
