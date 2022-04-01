@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b9642d60.css",
-    "main.js": "/static/js/main.6a50cc17.js",
+    "main.css": "/static/css/main.60e0b0e9.css",
+    "main.js": "/static/js/main.c1d1fc73.js",
     "static/js/787.64467278.chunk.js": "/static/js/787.64467278.chunk.js",
     "pdf.worker.js": "/e7e915313973ba1d49f9bb2a1998626e.js",
+    "static/media/IMG_20210620_164734.jpg": "/static/media/IMG_20210620_164734.e7ad72dc2ce1ad7c9583.jpg",
+    "static/media/20180513_183940.jpg": "/static/media/20180513_183940.2520cec11f167f761968.jpg",
     "static/media/AkhilANew.pdf": "/static/media/AkhilANew.90d94e04db1995a495c2.pdf",
+    "static/media/IMG_20210711_175308.jpg": "/static/media/IMG_20210711_175308.60ddc7e3fa9cdb355832.jpg",
+    "static/media/Sarabun-Light.ttf": "/static/media/Sarabun-Light.6129d74579149bbddbb7.ttf",
     "static/media/Audiowide-Regular.ttf": "/static/media/Audiowide-Regular.2017bdb174a62d0daa3e.ttf",
     "static/media/link.png": "/static/media/link.e60410cf5bbdf27a124d.png",
     "index.html": "/index.html",
-    "main.b9642d60.css.map": "/static/css/main.b9642d60.css.map",
-    "main.6a50cc17.js.map": "/static/js/main.6a50cc17.js.map",
+    "main.60e0b0e9.css.map": "/static/css/main.60e0b0e9.css.map",
+    "main.c1d1fc73.js.map": "/static/js/main.c1d1fc73.js.map",
     "787.64467278.chunk.js.map": "/static/js/787.64467278.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9642d60.css",
-    "static/js/main.6a50cc17.js"
+    "static/css/main.60e0b0e9.css",
+    "static/js/main.c1d1fc73.js"
   ]
 }
