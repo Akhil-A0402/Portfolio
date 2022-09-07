@@ -1,0 +1,13 @@
+.sample{
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    margin: 2px;
+    overflow: hidden;
+}
+
+.sample__image{
+    margin: 2px;
+    border-radius: 25px;
+    width: 100%;
+}

@@ -1,0 +1,54 @@
+body{
+    background-color: var(--black-100);
+}
+
+.text-default{
+    color: var(--white-200);
+    font-family: "Audiowide-Regular";
+}
+
+.text-default-two{
+    color: var(--white-200);
+    /* font-family: "Saraban-Light";
+    font-weight: 300; */
+}
+.text-1x{
+    font-size: 1rem;
+}
+
+.text-1_2x{
+    font-size: 1.2rem;
+}
+
+.text-1_4x{
+    font-size: 1.4rem;
+}
+
+.text-1_6x{
+    font-size: 1.6rem;
+}
+
+.text-1_8x{
+    font-size: 1.8rem;
+}
+
+.text-2x{
+    font-size: 2rem;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-align-left{
+    text-align: left;
+}
+
+.text-align-right{
+    text-align: right;
+}
+
+.text-align-ceter{
+    text-align: center;
+}

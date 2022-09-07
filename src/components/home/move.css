@@ -1,0 +1,40 @@
+@keyframes rotating {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.move{
+    transition: ease-in-out;
+    transition-duration: 2s;
+    opacity: linear-gradient(135deg, transparent , var(--black-100));
+    animation: rotating;
+    animation-duration: 360s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    -ms-transform-origin-x: 50%;
+    -ms-transform-origin-y: 50%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    position: absolute;
+    top: -80%;
+    left: -40%;
+}
+
+@media screen and (max-width: 768px){
+    .move{
+        top: -60%;
+        left: -30%;
+    }
+}
+
+@media screen and (max-width: 468px){
+    .move{
+        top: -60%;
+        left: -20%
+    }
+}

@@ -1,0 +1,38 @@
+.moveback{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1001;
+}
+
+.moveback__bar{
+    width: 100%;
+    height: 2px;
+    background-color: var(--white-200);
+}
+
+.bar__top{
+    transform:rotate(45deg);
+    transform-origin: 0%;
+}
+
+.bar__bottom{
+    transform: rotate(-45deg);
+    transform-origin: 0%;
+}
+
+@media screen and (max-width: 768px){
+    .moveback{
+        top: 40px;
+        left: 40px;
+    }
+}
+
+@media screen and (max-device-width: 426px) {
+    .moveback{
+        top: 40px;
+        left: 40px;
+    }
+}

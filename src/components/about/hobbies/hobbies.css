@@ -1,0 +1,15 @@
+.hobbies__titles{
+    margin: 1vw 6vw;
+    position: relative;
+}
+
+@media screen and (max-width: 426px) {
+    .hobbies{
+        margin: 0 10px;
+    }
+
+    .hobbies__titles{
+        margin:3vh 12vw;
+        font-size: 1.6rem;
+    }
+}

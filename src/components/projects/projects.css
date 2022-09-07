@@ -1,0 +1,35 @@
+.projects{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects__title{
+    color:var(--white-200);
+    text-align: left;
+    padding: 10vh 0 0;
+}
+
+@keyframes loading {
+    from{
+        widht:0vw;
+    }
+    to{
+        width: 80vw;
+    }
+}
+
+.projects_wave{
+    background: linear-gradient(var(--black-100),var(--black-300));
+    width:80vw;
+    height: 10px;
+    position: relative;
+    animation: loading;
+    animation-duration: 10s;
+    animation-direction: normal;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 10s;
+
+}

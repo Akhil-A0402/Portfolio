@@ -1,0 +1,93 @@
+.document{
+    /* width: 100vw; */
+    position: relative;
+    top: 10vh;
+    margin: auto;
+}
+
+.react-pdf__Page__canvas {
+    margin: auto;
+    width: 60% !important;
+    height: 120% !important;
+    border-radius: 12px;
+}
+
+.document__navigate{
+    background-color: var(--black-200);
+    color: var(--white-200);
+    width: fit-content;
+    height: fit-content;
+    padding: 1.2vw;
+    cursor: pointer;
+    position: absolute;
+    top: 12vh;
+    z-index: 30;
+    border-radius: 6px;
+}
+
+.document__navigate:hover{
+    background-color: var(--black-300);
+}
+
+.document__left{
+    left: 10vw;
+}
+
+.document__right{
+    right: 10vw;
+}
+
+.message{
+    background-color: var(--black-300);
+    color: var(--white-200);
+    padding: 2px;
+    position: absolute;
+    top: 10vh;
+    display: none;
+}
+
+.message__show{
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .react-pdf__Page__canvas{
+        width: 90% !important;
+    }
+
+    .document__navigate{
+        top:6vh;
+        width: 10vw;
+        height: 2vh;
+    }
+
+    .document__left{
+       left:0px;
+    }
+
+    .document__right{
+        right: 0px;
+    }
+}
+
+@media screen and (max-device-width: 426px) {
+    .react-pdf__Page{
+        overflow: hidden;
+    }
+    
+    .react-pdf__Page__canvas{
+        width: 100%!important;
+        height: 120%!important;
+        overflow: hidden;
+    }
+
+    .document{
+        top: 12vh;
+    }
+
+    .document__navigate{
+        top: 94vh;
+        width: 46%;
+        height: fit-content;
+    }
+}

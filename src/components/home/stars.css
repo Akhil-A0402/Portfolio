@@ -1,0 +1,25 @@
+@keyframes blinking {
+    from {
+        transform: scale(0.1, 0.1);
+    }
+    to{
+        transform: scale(1,1);
+    }
+}
+
+.stars{
+    transition: ease-in-out;
+    /* transition-duration: 2s; */
+    animation: blinking;
+    animation-duration: 0.9s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width: 2px;
+    height: 2px;
+    background-color: var(--white-200); 
+    position: absolute;
+    /* top: 10vh; */
+    /* left: 10vw; */
+    border-radius: 1px;
+}

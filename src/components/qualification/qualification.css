@@ -1,0 +1,12 @@
+.qualification{
+    /* background: linear-gradient(130deg, var(--black-100), var(--black-200)); */
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.titles{
+    color: var(--white-200);
+    font-family: Audiowide-Regular;
+    text-align: left;
+    font-size: 2rem;
+}

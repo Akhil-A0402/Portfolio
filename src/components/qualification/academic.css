@@ -1,0 +1,30 @@
+.education{
+    padding-top: 10vh;
+    width: 80vw;
+    margin: auto;
+}
+
+.institution{
+    width: 70vw;
+    border:solid var(--white-200) 2px;
+    color: var(--white-200);
+    margin: auto;
+    background: var(--black-200);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 2vh;
+}
+
+.institution__details{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.institution__duration{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}

@@ -1,0 +1,140 @@
+.intro{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(135deg, var(--black-100) 40%, var(--black-200));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes wind-shadow {
+    from{
+        text-shadow: 2px 2px #9ACD32;
+    }
+    to{
+        text-shadow: 4px 4px #00FF00;
+    }
+    
+}
+.intro__introduction{
+    font-family: Audiowide-Regular;
+    width: 50vw;
+    font-size: 2rem;
+    text-align: left;
+    /* animation:wind-shadow 2s alternate-reverse infinite; */
+    color: var(--white-200);
+    padding-left: 2%;
+}
+
+@keyframes rotate-360 {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.intro__interstellar{
+    width: 40vw;
+    height: 40vw;
+    animation: rotate-360;
+    animation-duration: 36s;
+    animation-iteration-count: infinite;
+    
+}
+
+.align__center{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.wave{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden!important;
+    position: absolute;
+    left:0;
+    top: 0px;
+}
+
+@keyframes spin{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.wave__1, .wave__2{
+    content: "";
+    display: block;
+    position: absolute;
+    top:90%;
+    left: 60%;
+    border-radius: 40% 42%;
+    width: 200vw;
+    height: 200vw;
+    margin-left: -120vw;
+    transform-origin: 50% 50%;
+    box-shadow: inset 0 0 10vw var(--black-300);
+    animation: spin 12s linear infinite;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.wave__2{
+    animation-delay: -2s;
+    box-shadow: inset 0 0 10vw var(--black-200);
+    top:80%;
+}
+
+@media screen and (min-width:1920px) {
+    .intro__introduction{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1920px){
+    .intro__introduction{
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px){
+    .intro__introduction{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-device-width:768px){
+    .intro__introduction{
+        font-size: 3rem;
+        width: 60vw;
+    }  
+    
+    .wave__1{
+        top:80%;
+    }
+
+    .wave__2{
+        top: 70%;
+    }
+}
+
+@media screen and (max-device-width:426px){
+    .intro__introduction{
+        font-size:2rem;
+        width: 80vw;
+    }
+
+    .wave__1{
+        top: 90%;
+    }
+
+    .wave__2{
+        top: 80%;
+    }
+}

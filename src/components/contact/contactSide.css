@@ -1,0 +1,144 @@
+.contactSide{
+    position: fixed;
+    right:0;
+    bottom:0;
+    width: 4vw;
+    height: fit-content;
+}
+
+.contactSide__message{
+    color: var(--white-200);
+    text-align: center;
+    transform: rotate(90deg);
+    position: relative;
+    top: -50px;
+}
+
+.contactSide__logos{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__link{
+    display: flex;
+    justify-content: center;
+}
+
+.contactSide__contactLogo{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 426px) {
+    .contactSide{
+        width: 6vw;
+        right: 2vw;
+    }
+    
+    .contactSide__message{
+        font-size: 1rem;
+        top: -60px;
+    }
+    
+    .contactSide__logos{
+        width: 100%;
+    }
+
+    .contactSide__contactLogo{
+        width: 100%;
+        padding: 10px 1px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .contactSide{
+        width: 4vw;
+        right: 2vw;
+    }
+    .contactSide__message{
+        font-size: 1rem;
+        top: -100px;
+    }
+
+    .contactSide__logos{
+        width: 100%;
+    }
+
+    .contactSide__contactLogo{
+        width: 100%;
+        padding: 10px 1px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .contactSide{
+        width: 4vw;
+        right: 2vw;
+    }
+
+    .contactSide__message{
+        font-size: 1.2rem;
+        top: -100px;
+    }    
+
+    .contactSide__logos{
+        width: 100%;
+    }
+
+    .contactSide__contactLogo{
+        width: 100%;
+        padding: 10px 1px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+    .contactSide{
+        width: 3vw;
+        right: 2vw;
+    }
+    
+    .contactSide__message{
+        font-size: 1.4rem;
+        top: -100px;
+    }
+
+    .contactSide__logos{
+        width: 100%;
+    }
+
+    .contactSide__contactLogo{
+        width: 80%;
+        padding: 10px 1px;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+    .contactSide{
+        width: 2vw;
+        right:1vw;
+    }
+    .contactSide__message{
+        font-size: 1.2rem;
+        top: -100px;
+    }
+
+    .contactSide__logos{
+        width: 100%;
+    }
+
+    .contactSide__contactLogo{
+        width: 80%;
+        padding: 20px 1px;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .contactSide__message{
+        font-size: 2rem;
+        top: -100px;
+    }
+}

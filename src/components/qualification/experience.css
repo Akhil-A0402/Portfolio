@@ -1,0 +1,86 @@
+.experience{
+    width: 80vw;
+    margin: auto;
+    margin-top: 2vh;
+}
+
+.exp{
+    border: solid var(--white-200) 2px;
+    border-radius: 10px;
+    color: var(--white-200);
+    width: 70vw;
+    margin: auto;
+    margin-top: 2vh;
+    padding: 10px;
+    background-color: var(--black-200);
+}
+
+.exp__detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exp__role{
+    font-size: 1.6rem;
+}
+
+.exp__org{
+    font-size:1.2rem;
+}
+
+.exp__place{
+    font-size: 1.6rem;
+}
+
+.exp__details{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.exp__duration{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.exp__time{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.exp__total{
+    text-align: right;
+}
+
+.exp__bul{
+    text-align: left;
+}
+
+.exp__title{
+    font-size: 1.2rem;
+}
+
+.exp__projects{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin: 10px;
+}
+
+.exp__project{
+    width: 10vw;
+    border: solid var(--black-300) 2px;
+    padding: 2.5vw;
+    border-radius: 12px;
+    margin: 10px
+}
+
+.exp__image{
+    width: 25px;
+    height: auto;
+    padding: 2px;
+}
